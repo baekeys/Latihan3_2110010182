@@ -3,6 +3,9 @@ package geometri;
 public class Lingkaran {
 double radius;
 
+Lingkaran(double radius){
+    this.radius=radius;
+}
 double luas(){
     return 3.14*radius*radius;
 }
